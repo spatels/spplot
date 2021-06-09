@@ -28,7 +28,7 @@ logo_image_path <- file.path(system.file(package = 'spplot'),"logo","logo.png")
 #' @export
 brand_plot <- function(plot_name) {
 
-  footer <- grid::rasterGrob(png::readPNG(logo_image_path), x = 0.944)
+  footer <- grid::rasterGrob(png::readPNG(logo_image_path), x = 0.944, vjust = 0)
 
   #left-aligned grid
   plot_left_aligned <- left_align(plot_name, c("subtitle", "title", "caption"))
