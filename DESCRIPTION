@@ -1,0 +1,21 @@
+Package: spplot
+Type: Package
+Title: Making ggplot graphics with SP theme and branding
+Version: 0.0.1
+Author: person("Satya", "Patel", "satya@patel.us", role = "aut")
+Maintainer: The package maintainer is Satya Patel<satya@patel.us>
+Description: Helps create and export ggplot2 charts with SP theme and/or branding using two functions, one for themeing and another for branding.
+Depends: 
+    R (>= 3.3.0)
+Imports:
+    ggplot2,
+    png,
+    grid,
+    ggpubr,
+    dplyr,
+    data.table
+License: GPL-2 + file LICENSE
+Encoding: UTF-8
+StagedInstall: no
+LazyData: true
+RoxygenNote: 7.1.1
