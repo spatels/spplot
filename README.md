@@ -14,7 +14,7 @@ A basic explanation and summary is provided below:
 
 ### `sp_theme()`
 
-1. `sp_theme()`: takes no arguments and is added to the ggplot chain after you have created a plot. It tries to follow the  typography and minimal design approach implement on my [website]() https://satya.patel.us)
+1. `sp_theme()`: takes no arguments and is added to the ggplot chain after you have created a plot. It tries to follow the  typography and minimal design approach implement on my [website](https://satya.patel.us).
 
 The function is simple and basic requiring additional argument in the  `theme` layer of the  ggplot chain as needed. The `theme` layer needs to come after the `sp_theme()` layer. Currently colors are not set by default and have to be manually set. However might add default colors in the future.
 
